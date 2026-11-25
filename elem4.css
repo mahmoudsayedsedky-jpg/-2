@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+        font-family:"Firjar", sans-serif;
+    font-family:'Noto Naskh Arabic', serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color:rgb(109, 110, 110); */
+     background-color: rgb(229, 231, 231);
+
+    direction: rtl;
+}
+@media screen and (min-width:768px)
+{
+    body{
+        width: 750px;
+    }
+}
+@media screen and (min-width:992px)
+{
+    body{
+        width: 950px;
+    }
+}
+@media screen and (min-width:1200px)
+{
+    body{
+        width: 1100px;
+    }
+}
+@media screen and (min-width:768px)
+{
+    .parant{
+        width: 750px;
+    }
+}
+@media screen and (min-width:992px)
+{
+    .parant{
+        width: 970px;
+    }
+}
+@media screen and (min-width:1200px)
+{
+    .parant{
+        width: 1130px;
+    }
+}
+.parant{
+    /* margin-left:10px ; */
+    /* margin-right:10px ; */
+   padding: 8px;
+
+ } 
+ .container{
+    border-radius: 10px;
+    
+    /* padding: 10px; */
+    /* margin: auto; */
+}
+.head{
+    background: rgb(193, 193, 193);
+    background-color: #164e49;
+    font-size: large;
+    color:black;
+    text-shadow: 2px 5px 10px;
+    border-radius: 20px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+ p:not(.headp){ 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    display: grid;
+    justify-items: center;
+    direction: rtl;
+    line-height: 1.5;
+    text-align: justify;
+    transition: .5s;
+    background-color:darkgray;
+}
+li{
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+input{
+    transform: scale(1.5);
+    margin: 10px;
+}
+input[type="reset"]{
+    background-color: #44605e;
+    /* margin-right: 200px; */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: none; */
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.container p:not(.headp):hover{
+     transform: scale(1.05);
+     background-color: rgb(202, 200, 200);
+}
+
+

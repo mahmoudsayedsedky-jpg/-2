@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+        font-family:"Firjar", sans-serif;
+    font-family:'Noto Naskh Arabic', serif;
+      margin: 0;
+    padding: 0;
+}
+body{
+    direction: rtl;
+    /* margin: 0; */
+     background-color: rgb(222, 218, 218);
+    
+}
+.parant{
+    /* margin: 0; */
+    /* border-radius: 15px; */
+    padding-left:5px ;
+    padding-right: 5px;
+    /* width: 500px; */
+    /* margin: 10px; */
+}
+div > .head{
+    background-color: #164e49;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+    
+    border-radius: 20px;
+
+}
+.container{
+    border-radius: 10px;
+    height: 400px;
+    
+    /* padding: 10px; */
+    /* margin: auto; */
+}
+/* @media screen and (min-width:260px)
+{
+    .parant{
+        width: 255px;
+    }
+
+} */
+@media screen and (min-width:350px)
+{
+    .parant{
+        width: 345px;
+    }
+
+}
+@media screen and (min-width:400px)
+{
+    .parant{
+        width: 390px;
+    }
+
+}
+@media screen and (min-width:470px)
+{
+    .parant{
+        width: 465px;
+    }
+
+}
+@media screen and (min-width:500px)
+{
+    .parant{
+        width: 490px;
+    }
+
+}
+@media screen and (min-width:550px){
+    .parant{
+        width: 530px;
+    }
+}
+@media screen and (min-width:600px)
+{
+    .parant{
+        width: 580px;
+    }
+
+}
+@media screen and (min-width:768px)
+{
+    .parant{
+        width: 750px;
+    }
+
+}
+@media screen and (min-width:992px)
+{
+    .paarant{
+        width: 960px;
+    }
+
+}
+@media screen and (min-width:1200px)
+{
+    .parant{
+        width: 1130px;
+    }
+
+}
+@media screen and (min-width:1400px)
+{
+    .parant{
+        width: 1300px;
+    }
+}
+.container p{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    /* margin: 10px; */
+    font-size: large;
+    font-weight: bold;
+    display: grid;
+    justify-items: center;
+    direction: rtl;
+    line-height: 1.3;
+    text-align: justify;
+    transition: .5s;
+    background-color:darkgray;
+    
+    
+    
+
+}
+mark{
+    background-color: rgba(114, 149, 149, 0.2);
+    width: fit-content;
+    border-radius: 20px;
+    color: rgba(7, 27, 241, 0.5);
+    
+}
+.container p:not(.head):hover{
+     transform: scale(1.05);
+     background-color: rgb(202, 200, 200);
+}
